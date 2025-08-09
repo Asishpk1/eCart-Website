@@ -109,7 +109,7 @@ const Cart = () => {
           </div>
           :
           // Empty Cart preview
-          <div className='d-flex flex-column align-items-center w-100'>
+          <div className='d-flex flex-column align-items-center w-100 mb-4'>
             {/* <img className='cartimg'  src={cartempty} alt="" style={{width:'25%'}} /> */}
             <DotLottieReact
               src="https://lottie.host/66c36631-c41c-4b17-9c11-99a46bfe5ca6/EYqG0aA6w6.lottie"

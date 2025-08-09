@@ -82,7 +82,7 @@ const Wishlist = () => {
         ) : (
 
           // Empty Wishlist preview
-          <div className='w-100 d-flex flex-column align-items-center mb-3'>
+          <div className='w-100 d-flex flex-column align-items-center wishfooter'>
             <DotLottieReact
               src="https://lottie.host/bc6d1301-1403-45b2-9705-4b6c100743bb/41p2tG6tSL.lottie"
               loop
