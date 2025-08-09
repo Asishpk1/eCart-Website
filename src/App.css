@@ -37,8 +37,17 @@
   .homeImg{
     width: 60% !important;
   }
-  .fontresp{
+  .homePs{
+    font-size: 14px;
+  }
+  .homeh1fs{
+    font-size: 25px;
+  }
+  .footerlinks{
     font-size: 15px;
+  }
+  .contacth1{
+    font-size: 17px;
   }
 } 
 

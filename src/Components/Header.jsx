@@ -70,14 +70,14 @@ const Header = ({ insideLanding }) => {
       {/* Header extra content */}
       {insideLanding && !isSearchActive &&
         <div className="container-fluid pt-3" style={{ backgroundColor: '#cde5cd', marginTop: '-2px' }}>
-          <div className='row px-md-5 px-2 pt-4 d-flex justify-content-around'>
+          <div className='row px-md-5 px-2 pt-md-4 d-flex justify-content-around'>
             <div className='col-md-4 d-flex justify-content-center'>
               <img src={specs} alt="" className='homeImg' style={{ borderRadius: '50px', width: '100%' }} />
             </div>
 
-            <div className='col-md-8 d-flex flex-column justify-content-center text-center'>
-              <h1 style={{ color: '#36723fff', fontWeight: '600' }}>Everything You Love. All in One Place.</h1>
-              <p className='fontresp' style={{ fontFamily: "Poppins, sans-serif" }}>Discover a seamless shopping experience across fashion, furniture, groceries, food, and more, all under one roof. From everyday essentials to stylish living, everything is thoughtfully curated to bring comfort, convenience, and inspiration to your daily life.</p>
+            <div className='col-md-8 d-flex flex-column justify-content-center text-center mt-2 mt-sm-0'>
+              <h1 className='homeh1fs' style={{ color: '#36723fff', fontWeight: '600' }}>Everything You Love. All in One Place.</h1>
+              <p className='homePs' style={{ fontFamily: "Poppins, sans-serif" }}>Discover a seamless shopping experience across fashion, furniture, groceries, food, and more, all under one roof. From everyday essentials to stylish living, everything is finely curated to bring comfort, convenience, and inspiration to your daily life.</p>
             </div>
           </div>
         </div>

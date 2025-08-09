@@ -41,7 +41,7 @@ const Footer = () => {
         <div style={{ backgroundColor: '#cde5cd' }}>
 
           {/* Social Media Icons */}
-          <div className='d-flex justify-content-center mediaIcon brandsec gap-2'>
+          <div className='d-flex justify-content-center mediaIcon brandsec gap-2 footerlinks'>
             <Link to={'https://www.instagram.com/human_being___/'}><i className="fa-brands fa-facebook fa-lg brandLogos" style={{ color: '#36723fff' }}></i></Link>
             <Link to={'https://www.instagram.com/human_being___/'}><i className="fa-brands fa-instagram fa-lg brandLogos" style={{ color: '#36723fff' }}></i></Link>
             <Link to={'https://www.linkedin.com/in/asish-krishna-p/'}><i className="fa-brands fa-linkedin fa-lg brandLogos" style={{ color: '#36723fff' }} ></i></Link>
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
 
           {/* Pages Link */}
-          <div className='d-flex justify-content-center gap-3 mt-2' style={{ color: '#36723fff' }}>
+          <div className='d-flex justify-content-center gap-3 mt-2 footerlinks' style={{ color: '#36723fff' }}>
             <Link style={{ textDecoration: 'none', color: '#36723fff' }} to={'/'}>Home</Link>
             <span>/</span>
             <Link style={{ textDecoration: 'none', color: '#36723fff' }} to={'/Wishlist'}>Wishlist</Link>
@@ -60,32 +60,34 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div className='d-flex justify-content-center flex-column align-items-center mt-2' style={{ color: '#36723fff' }}>
-            <h5 className='fw-bold'>Contact Us</h5>
+            <h5 className='fw-bold contacth1'>Contact Us</h5>
             <Form>
-              <Row className="align-items-center contactinput">
+              <div className='container'>
+                <Row className="align-items-center footerlinks">
                 <Col xs="auto">
                   <Form.Label htmlFor="inlineFormInput" visuallyHidden>
                     Name
                   </Form.Label>
                   <Form.Control
-                    className="bg-transparent"
+                    className="bg-transparent form-control form-control-sm"
                     id="inlineFormInput"
                     placeholder="Enter email"
-                    style={{ border: 'solid 1px', borderColor: '#36723fff' }}
+                    style={{ border: 'solid 1px', borderColor: '#36723fff'}}                    
                   />
                 </Col>
                 <Col xs="auto">
                   <Link to={'/'}>
-                    <Button type="submit" className="w-100 btn get border-0" style={{ backgroundColor: '#36723fff' }}>
+                    <Button type="submit" className="w-100 btn btn-sm get border-0" style={{ backgroundColor: '#36723fff' }}>
                       <i className="fa-solid fa-arrow-right contact-btn"></i>
                     </Button>
                   </Link>
                 </Col>
               </Row>
+              </div>
             </Form>
           </div>
 
-          <p className='text-center w-100 py-2 mt-2 mb-0' style={{ color: '#36723fff', fontFamily: "Poppins, sans-serif" }}>Copyright &copy; 2025 <strong>Luminar</strong> | Designed by <strong>Asish</strong></p>
+          <p className='text-center w-100 py-2 mt-2 mb-0 footerlinks' style={{ color: '#36723fff', fontFamily: "Poppins, sans-serif" }}>Copyright &copy; 2025 <strong>Luminar</strong> | Designed by <strong>Asish</strong></p>
         </div>
       </div>
     </>
