@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* To Enlarge on hover */
+.get{
+    transition: all 0.3s ease-in-out !important;
+}
+.get:hover{
+    transform: scale(1.1);
+}
+
+
+/* Applying Rotation and Bg colour to Brand logos on hover */
+.brandLogos{
+    transition: 0.5s ease;
+    transform-style: preserve-3d;
+}
+.brandLogos:hover{
+    color: white !important;
+    transform: rotateY(360deg)
+}
+.cartimg{
+  width: 50%;
+}
+
+/* Adjusting alignment according to screen width */
+@media(max-width: 576px){
+  .cartimg{
+    width: 100%;
+  }
+  .cart{
+    text-align: center;
+  }
+  .homeImg{
+    width: 60% !important;
+  }
+  .fontresp{
+    font-size: 15px;
+  }
+} 
+
+/* Applying Hover effects to product cards in Landing Page  */
+.landingCard{
+  transition: all 0.3s ease-in-out !important;
+}
+.landingCard img{
+  transition: all 0.3s ease-in-out !important;
+}
+.landingCard:hover{
+  background-color: #cde5cd;
+}
+.landingCard:hover img{
+  transform: scale(1.1);
+}
+
+/* Active Page indicator */
+.active{
+  background-color: #36723fff !important;
+}
+
+
